@@ -2,7 +2,8 @@
 define(['jquery', 'raphael', 'magnific'], function ($, Raphael) {
 	'use strict';
 	
-	$.ajax('/data.json', {
+	var cwd = window.location.protocol + '//' + window.location.host + window.location.pathname;
+	$.ajax(cwd + 'data.json', {
 		dataType: 'json'
 	}).done(function(data) {
 		$(document).ready(function() {
