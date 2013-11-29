@@ -1,5 +1,6 @@
 html {
 	height: 100%;
+	-webkit-backface-visibility: hidden;
 }
 
 body {
@@ -9,6 +10,7 @@ body {
 	padding: 0;
 	margin: 0;
 	min-height: 100%;
+	-webkit-backface-visibility: hidden;
 }
 
 .hero-unit {
@@ -38,8 +40,10 @@ body {
 
 
 #mycanvas {
-	width: 100%;
+	width: 300px;
+	margin: 0 auto;
 	height: 100%;
+	box-sizing: border-box;
 }
 
 #mouse_coordinates {
@@ -69,18 +73,20 @@ body {
 	margin: 20px auto;
 }
 
+.white-popup h1.title {
+	margin: 0;
+	padding: 0 0 .3em 0;
+}
+
+.white-popup p {
+	margin: 0;
+	padding: 0 0 1em 0;
+}
 /* 
 
 ====== Zoom effect ======
 
 */
-
-html, body {
-  margin: 0;
-  padding: 10px;
-  -webkit-backface-visibility: hidden;
-}
-
 
 /**
  * Fade-zoom animation for first dialog

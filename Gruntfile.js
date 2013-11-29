@@ -10,8 +10,11 @@
 module.exports = function (grunt) {
     // show elapsed time at the end
     require('time-grunt')(grunt);
+    
     // load all grunt tasks
     require('load-grunt-tasks')(grunt);
+    
+    grunt.loadNpmTasks('grunt-convert');
 
     grunt.initConfig({
         // configurable paths
@@ -295,6 +298,12 @@ module.exports = function (grunt) {
             },
             all: {
                 rjsConfig: '<%= yeoman.app %>/scripts/main.js'
+            }
+        },
+        convert: {
+            yml2json: {
+                src: ['data.yml'],
+                dest: 'app/data.json'
             }
         }
     });
