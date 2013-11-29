@@ -273,7 +273,14 @@ module.exports = function (grunt) {
                 dot: true,
                 cwd: '<%= yeoman.app %>/styles',
                 dest: '.tmp/styles/',
-                src: '{,*/}*.css'
+                src: '{,*/}*.css',
+            },
+            bower_styles: {
+                expand: true,
+                dot: true,
+                cwd: '<%= yeoman.app %>/bower_components',
+                dest: '.tmp/bower_components/',
+                src: '**/**.css'
             }
         },
         concurrent: {
@@ -287,6 +294,7 @@ module.exports = function (grunt) {
             dist: [
                 'compass',
                 'copy:styles',
+                'copy:bower_styles',
                 'imagemin',
                 'svgmin',
                 'htmlmin'
