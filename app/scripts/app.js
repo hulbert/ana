@@ -1,6 +1,6 @@
 /*global define */
 define(['jquery', 'raphael', 'magnific'], function ($, Raphael) {
-    'use strict';
+	'use strict';
 	
 	$.ajax('/data.json', {
 		dataType: 'json'
@@ -13,10 +13,14 @@ define(['jquery', 'raphael', 'magnific'], function ($, Raphael) {
 	var init = function(data) {
 		var paper = drawFront($('#mycanvas')[0]);
 		
-		var MAGIC_NUMBER = 4; // for some reason this makes the x,y coords more accurate..
+		
+		var MAGIC_NUMBER = 3; // for some reason this makes the x,y coords more accurate..
 		$('body').on('mousemove', function(ev) {
 			var canvasOffset = $(paper.canvas).offset();
-			$('#mouse_coordinates').html('X: ' + (Math.round(ev.pageX - canvasOffset.left - MAGIC_NUMBER)) + '&nbsp;&nbsp;Y: ' + (Math.round(ev.pageY - canvasOffset.top - MAGIC_NUMBER)));
+			
+			var x = Math.round((ev.pageX - canvasOffset.left - MAGIC_NUMBER)/boostRatio);
+			var y = Math.round((ev.pageY - canvasOffset.top - MAGIC_NUMBER)/boostRatio);
+			$('#mouse_coordinates').html('X: ' + x + '&nbsp;&nbsp;Y: ' + y);
 		});
 
 		if (window.location.href.indexOf('debug') > -1) {
@@ -26,6 +30,32 @@ define(['jquery', 'raphael', 'magnific'], function ($, Raphael) {
 		for (var i=0; i < data.model_front.length; i++) {
 			var item = data.model_front[i];
 			addPoint(paper, item.x, item.y, item);
+		}
+		
+		// how much the projection is being enlarged from raw SVG-esque sizing; 
+		// any size changes should update this;
+		// it is used to properly find the point coordinates by medical team
+		var boostRatio = 1; 
+		if (Raphael.svg) {
+			var w = $(paper.canvas).width();
+			var h = $(paper.canvas).height();
+			paper.setViewBox(0,0,w,h,true);
+			
+			var resizePaper = function() {
+				var newHeight = $(window).height() - 10;
+				if (newHeight < 611) newHeight = 600;
+				var newWidth = (w/h) * newHeight;
+				paper.setSize(newWidth , newHeight);
+				
+				boostRatio = newWidth/w;
+			}
+			resizePaper();
+
+			var to = -1;
+			$(window).on('resize', function(e) {
+				clearTimeout(to);
+				setTimeout(resizePaper, 500);
+			});
 		}
 		
 	}
