@@ -1,12 +1,9 @@
 require.config({
     paths: {
-        jquery: '../bower_components/jquery/jquery',
-		'svg': '../bower_components/svg.js/dist/svg',
-		'svg-import': '../bower_components/svg.import.js/svg.import',
-		'svg-filter': '../bower_components/svg.filter.js/svg.filter'
+        'jquery': '../bower_components/jquery/jquery',
+		'magnific': '../bower_components/magnific-popup/dist/jquery.magnific-popup',
+		'raphael': '../bower_components/raphael/raphael'
     }
 });
 
-require(['app', 'jquery'], function (app, $) {
-    'use strict';
-});
+require(['app']);
