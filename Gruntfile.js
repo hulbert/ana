@@ -318,8 +318,14 @@ module.exports = function (grunt) {
                     indent: 0
                 },
                 src: ['data.yml'],
-                dest: 'dist/data.json',
+                dest: '<%= yeoman.dist %>/data.json',
             }
+        },
+        'gh-pages': {
+            options: {
+                base: 'dist'
+            },
+            src: ['**']
         }
     });
 
