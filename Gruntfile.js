@@ -304,6 +304,13 @@ module.exports = function (grunt) {
             yml2json: {
                 src: ['data.yml'],
                 dest: 'app/data.json'
+            },
+            distyml: {
+                options: {
+                    indent: 0
+                },
+                src: ['data.yml'],
+                dest: 'dist/data.json',
             }
         }
     });
@@ -341,7 +348,8 @@ module.exports = function (grunt) {
         'uglify',
         'copy:dist',
         'rev',
-        'usemin'
+        'usemin',
+        'convert:distyml'
     ]);
 
     grunt.registerTask('default', [
