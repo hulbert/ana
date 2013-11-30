@@ -75,12 +75,28 @@ body {
 
 .white-popup h1.title {
 	margin: 0;
-	padding: 0 0 .3em 0;
+	padding: 0 0 .24em 0;
+    line-height: 1.1;
 }
 
-.white-popup p {
+.white-popup .content {
+    line-height: 1.32;
+}
+
+.white-popup .content img {
+    width: 100%;
+}
+
+.white-popup .content p {
 	margin: 0;
 	padding: 0 0 1em 0;
+}
+
+.white-popup .content h2 {
+    margin: 0 0 .36em 0;
+    padding: 0 0 .1em 0;
+    border-bottom: 1px solid #eee;
+    font-size: 1.18em;
 }
 /* 
 

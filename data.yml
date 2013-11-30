@@ -1,13 +1,48 @@
 model_front:
-    - x: 50
-      y: 100
-      title: Abughabra
+    - title: Iliac crest
+      x: 54
+      y: 190
       content: >
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>more paragraphical</p>
-    - x: 53
-      y: 215
-      title: Iliac crest
+          <h2>Osteology</h2>
+          <img src="images/malepelvis-graysanatomy.png" alt="Sketch of male pelvis">
+    - title: Anterior superior iliac spine
+      x: 122
+      y: 195
       content: >
-          something goes here
-
+          <h2>Osteology</h2>
+          <img src="images/malepelvis-graysanatomy.png" alt="Sketch of male pelvis">
+          <h2>Clinical correlate: Origin for sartorius</h2>
+          <img src="http://upload.wikimedia.org/wikipedia/commons/1/1d/Sartorius_muscle.png">
+    - title: Greater trochanter
+      x: 47
+      y: 235
+      content: >
+          <h2>Osteology</h2>
+          <img src="http://upload.wikimedia.org/wikipedia/commons/7/79/Femur_head.png">
+          <h2>Clinical correlate: Insertion for gluteus minimus and gluteus medius</h2>
+          <p>
+              Gluteal injections are considered to be &ldquo;safe&rdquo; in the superolateral quadrant of buttock. 
+              If iatrogenic inferior gluteal nerve injury occurs (i.e. from improper injection site), Trendelenburg sign can occur.
+          </p>
+          <h2>Clinical correlate: Trochanteric bursitis</h2>
+          <p>
+              A bursa is a small, fluid filled sac that functions to reduce friction between tendons and bone. 
+              In trochanteric bursitis, there is inflammation of the bursa that overlies the greater trochanter. 
+              Symptoms include pain directly over greater trochanter with walking and laying on affected side. 
+              Treatment is rest, ice, stretching, strengthening, steroid injection into bursa, or bursectomy (rarely).
+          </p>
+    - title: Distal femur
+      x: 62
+      y: 295
+      content: >
+          <h2>Osteology</h2>
+          <p>
+              The medial and lateral epicondyles of the femur are palpable landmarks.
+          </p>
+          <img src="http://upload.wikimedia.org/wikipedia/commons/b/bc/Fumur_Anterior_annoted.png">
+          <h2>Clinical correlate</h2>
+          <p>
+              After acetabular or femoral shaft fractures, the  
+              It is important for the femur to be kept out to its normal length until surgical fixation can occur. 
+              To accomplish this, a metal traction pin can be drilled through the distal femur and connected to 10 to 20 pounds of weight. 
+          </p>
