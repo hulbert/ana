@@ -123,7 +123,8 @@ body {
 }
 
 .white-popup .content figure {
-	margin-bottom: 2.4em;
+	margin: 0 0 2.4em 0;
+	padding: 0;
 }
 
 .white-popup .content figcaption {
@@ -133,6 +134,8 @@ body {
 	font-size: 14pt;
 	text-align: center;
 	line-height: 1.1;
+	max-width: 80%;
+	margin: 0 auto;
 }
 
 .white-popup p.image-credit {
