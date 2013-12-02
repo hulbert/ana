@@ -5,10 +5,8 @@ model_front:
       content: >
           <h2>Osteology</h2>
           <img src="images/diagrams/iliac-crest.png" alt="Sketch of male pelvis with arrow to Iliac crest">
-          <h2>Clinical correlate: Bone marrow biopsy</h2>
-          <p>
-              If there is concern about cancers like multiple myeloma or leukemia which have bone marrow involvement, a bone marrow biopsy is commonly performed at the iliac crest to confirm the diagnosis.
-          </p>
+          <h2>Clinical correlate: Common site for bone marrow biopsy</h2>
+          
     - title: Anterior superior iliac spine
       x: 122
       y: 195
