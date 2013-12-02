@@ -39,9 +39,14 @@ module.exports = function (grunt) {
                     '<%= yeoman.app %>/*.html',
                     '.tmp/styles/{,*/}*.css',
                     '{.tmp,<%= yeoman.app %>}/scripts/{,*/}*.js',
-                    '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
+                    '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
+					'<%= yeoman.app %>/data.json'
                 ]
-            }
+            },
+			dataFile: {
+				files: ['data.yml'],
+				tasks: ['convert:yml2json']
+			}
         },
         connect: {
             options: {
@@ -287,7 +292,8 @@ module.exports = function (grunt) {
         concurrent: {
             server: [
                 'compass',
-                'copy:styles'
+                'copy:styles',
+				'convert:yml2json'
             ],
             test: [
                 'copy:styles'
@@ -312,7 +318,7 @@ module.exports = function (grunt) {
         convert: {
             yml2json: {
                 src: ['data.yml'],
-                dest: 'app/data.json'
+                dest: '<%= yeoman.app %>/data.json'
             },
             distyml: {
                 options: {
