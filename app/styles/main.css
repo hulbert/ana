@@ -102,6 +102,10 @@ body {
     font-size: 1.18em;
 }
 
+.white-popup .content img + h2 {
+	margin-top: 2em;
+}
+
 .white-popup .content h3 {
     margin: 0;
     padding: 0 0 .2em 0;

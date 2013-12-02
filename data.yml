@@ -145,11 +145,11 @@ model_front:
               <img src="images/diagrams/ankle.png">
               <figcaption>
                   The talus is shown in red. 
-                  The tibia is superior and medial to the talus. 
-                  The fibula lies laterally to the talus. 
+                  The tibia is superior and medial to&nbsp;the&nbsp;talus. 
+                  The fibula lies laterally to&nbsp;the&nbsp;talus. 
               </figcaption>
           </figure>
-          TODO another image here?
+          <img src="images/diagrams/base-of-5th-metatarsal.png" alt="sketches of bones in foot with arrow to base of the 5th metatarsal">
           <h2>Clinical correlate: Ankle sprain</h2>
           <p>
               Ankle sprains are one of the most common musculoskeletal injuries. 
