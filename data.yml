@@ -5,6 +5,10 @@ model_front:
       content: >
           <h2>Osteology</h2>
           <img src="images/diagrams/iliac-crest.png" alt="Sketch of male pelvis with arrow to Iliac crest">
+          <h2>Clinical correlate: Bone marrow biopsy</h2>
+          <p>
+              If there is concern about cancers like multiple myeloma or leukemia which have bone marrow involvement, a bone marrow biopsy is commonly performed at the iliac crest to confirm the diagnosis.
+          </p>
     - title: Anterior superior iliac spine
       x: 122
       y: 195
@@ -22,14 +26,14 @@ model_front:
           <h2>Clinical correlate: Insertion for gluteus minimus and gluteus medius</h2>
           <p>
               Gluteal injections are considered to be &ldquo;safe&rdquo; in the superolateral quadrant of buttock. 
-              If iatrogenic inferior gluteal nerve injury occurs (i.e. from improper injection site), Trendelenburg sign can occur.
+              If iatrogenic inferior gluteal nerve injury occurs (i.e. from improper injection site), <a href="https://www.youtube.com/watch?v=IuEeKzqsfmk">trendelenburg sign</a> can occur.
           </p>
           <h2>Clinical correlate: Trochanteric bursitis</h2>
           <p>
               A bursa is a small, fluid filled sac that functions to reduce friction between tendons and bone. 
               In trochanteric bursitis, there is inflammation of the bursa that overlies the greater trochanter. 
-              Symptoms include pain directly over greater trochanter with walking and laying on affected side. 
-              Treatment is rest, ice, stretching, strengthening, steroid injection into bursa, or bursectomy (rarely).
+              Symptoms include pain directly over the greater trochanter with walking and laying on the affected side. 
+              Treatment is rest, ice, stretching, strengthening, steroid injection into the bursa, or bursectomy (rarely).
           </p>
     - title: Distal femur
       x: 62
@@ -42,8 +46,7 @@ model_front:
           <img src="http://upload.wikimedia.org/wikipedia/commons/b/bc/Fumur_Anterior_annoted.png">
           <h2>Clinical correlate</h2>
           <p>
-              After acetabular or femoral shaft fractures, the  
-              It is important for the femur to be kept out to its normal length until surgical fixation can occur. 
+              After acetabular or femoral shaft fractures, it is important for the femur to be kept out to its normal length until surgical fixation can occur. 
               To accomplish this, a metal traction pin can be drilled through the distal femur and connected to 10 to 20 pounds of weight. 
           </p>
     - title: Tibial tubercle
@@ -61,7 +64,7 @@ model_front:
           <h2>Clinical correlate: Insertion site of the iliotibial band</h2>
           <p>
               Iliotibial band (IT) syndrome is a very common cause of lateral knee pain, often occurring in runners, bikers, and weight lifters with movement of the IT band over the lateral epicondyle with repeated knee flexion and extension. 
-              On physical exam, Ober’s test will be positive. Treatment includes rest, ice, compression, elevation (RICE), and IT band stretching.
+              On physical exam, <a href="https://www.youtube.com/watch?v=A0C0WBw4l4s">Ober’s test</a> will be positive. Treatment includes rest, ice, compression, elevation (RICE), and IT band stretching.
           </p>
     - title: Pes anserinus
       x: 69
@@ -72,9 +75,9 @@ model_front:
           <img src="images/diagrams/pes-anserinus.png" alt="">
           <h2>Clinical correlate: Pes anserinus</h2>
           <p>
-              Latin for “goose foot” and is the insertion site of the sartorius, gracilis, and semitendinosus, which are innervated by femoral nerve, obturator nerve, and tibial nerve, respectively. 
-              A good mnemonic to remember this is SGT FOT! 
-              Pes anserinus bursitis can occur when the bursa underlying the pes tendons becomes inflamed from overuse or direct injury. 
+              Latin for “goose foot.” It is the insertion site of the sartorius, gracilis, and semitendinosus, which are innervated by the femoral nerve, obturator nerve, and tibial nerve, respectively. 
+              A good mnemonic to remember this is SGT FOT! (Sergeant FOT).
+              Anserine bursitis can occur when the bursa underlying the pes tendons becomes inflamed from overuse or direct injury. 
               Pain occurs on the medial aspect of the proximal tibia. 
           </p>
           <h2>Clinical correlate: Semitendinosis autograft</h2>
@@ -112,7 +115,7 @@ model_front:
           <p>
               The medial and lateral mensici are fibrocartilage wedges between the femur and tibia and act as shock absorbers for the knee. 
               When injury to the menisci occur, pain with palpation at joint line is the most sensitive physical exam finding. 
-              McMurray’s Test is often positive. 
+              <a href="https://www.youtube.com/watch?v=fkt1TOn1UfI">McMurray’s Test</a> is often positive. 
               Treatment includes physical therapy only, surgical resection of the torn meniscus (menisectomy), or surgical repair of the torn meniscus.
           </p>
           <h2>Clinical correlate: ACL tear</h2>
@@ -121,11 +124,14 @@ model_front:
               It prevents anterior translation of the tibia on the femur. 
               Injury to the ACL often occurs with rotation of the knee on a planted foot. 
               Symptoms include immediate swelling, inability to bear weight, pain over entire knee. 
-              Physical exam will show a positive Lachman’s and anterior drawer test. 
+              Physical exam will show a positive <a href="https://www.youtube.com/watch?v=bHytLhg-1vM">Lachman’s</a> and <a href="https://www.youtube.com/watch?v=yQdBrr3Mmj0">anterior drawer test </a>. 
               MRI is the best test to confirm ACL tear. 
               Treatment typically involves surgical reconstruction with semitendiosus and gracilis autografts, patellar tendon autograft, or cadaver tendon.
           </p>
           <img src="http://upload.wikimedia.org/wikipedia/commons/e/e3/ACLI_Hamstring_01.jpg">
+          <p> 
+              Reconstructed ACL using the hamstring tendons (semitendinosus and gracilis). 
+          </p>
           <p class="image-credit">
               <small>
               Image by Chih-Hwa Chen [<a href="http://creativecommons.org/licenses/by-sa/2.0">CC-BY-SA-2.0</a>], <a href="http://commons.wikimedia.org/wiki/File%3AACLI_Hamstring_01.jpg">via Wikimedia Commons</a>
@@ -142,6 +148,7 @@ model_front:
               The distal fibula is called the lateral malleolus. 
               These structures are palpable on each side of the ankle. 
               At the lateral aspect of the foot, about halfway between the calcaneus and 5th toe, you can find a bony prominence which is the base of the 5th metatarsal. 
+              At the medial aspect of the foot, anteroinferior to the medial malleolus is the navicular tuberosity, which is the insertion site of the posterior tibialis.
           </p>
           <figure>
               <img src="images/diagrams/ankle.png">
@@ -156,19 +163,19 @@ model_front:
           <p>
               Ankle sprains are one of the most common musculoskeletal injuries. 
               The most common mechanism of injury is inversion and 90% of the time, the anterior talofibular ligament (ATFL) is injured. 
-              Physical exam will reveal excessive laxity on the anterior drawer test (an anterior force on the heel with the foot plantarflexed). 
+              Physical exam will reveal excessive laxity on the <a href="https://www.youtube.com/watch?v=sIWuEtbHEQ4">ankle anterior drawer test</a>. 
           </p>
           <p>
               The calcaneofibular ligament (CFL) is less commonly injured. 
-              On physical exam, injury to the CFL is elicited by the talar tilt test (invert the heel of a dorsiflexed foot).
+              On physical exam, injury to the CFL is elicited by the <a href="https://www.youtube.com/watch?v=2qF_DOe2jPE">talar tilt test</a>.
           </p>
           <p>
                The ankle syndesmosis, the strong fibrous tissue between the tibia and fibula, is rarely injured. 
                This is sometimes called a “high ankle sprain.” 
-               Pain with the squeeze test (compress the distal tibia and fibula together) suggests a syndesmosis injury. 
+               Pain with the squeeze test (compression of the proximal tibia and fibula together ilicits distal tib/fib pain) suggests a syndesmosis injury. 
           </p>
           <p>
-              A base of 5th metatarsal avulsion fracture (insertion site of the peroneus brevis also can occur with an inversion mechanism. 
+              A base of 5th metatarsal avulsion fracture (insertion site of the peroneus brevis) also can occur with an inversion mechanism. 
               Patients will have pain with palpation over the base of the 5th metatarsal. 
           </p>
           <h3>Ottawa Ankle Rules</h3>
