@@ -177,7 +177,8 @@ module.exports = function (grunt) {
                         '<%= yeoman.dist %>/scripts/{,*/}*.js',
                         '<%= yeoman.dist %>/styles/{,*/}*.css',
                         '<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp}',
-                        '<%= yeoman.dist %>/styles/fonts/{,*/}*.*'
+                        '<%= yeoman.dist %>/styles/fonts/{,*/}*.*',
+						'!<%= yeoman.dist %>/images/diagrams/*.*' // these file paths are mostly in JSON which usemin cannot replace paths in
                     ]
                 }
             }
@@ -361,9 +362,9 @@ module.exports = function (grunt) {
         'cssmin',
         'uglify',
         'copy:dist',
+		'convert:distyml',
         'rev',
-        'usemin',
-        'convert:distyml'
+        'usemin'
     ]);
 
     grunt.registerTask('default', [

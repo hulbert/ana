@@ -4,13 +4,13 @@ model_front:
       y: 190
       content: >
           <h2>Osteology</h2>
-          <img src="images/malepelvis-graysanatomy.png" alt="Sketch of male pelvis">
+          <img src="images/diagrams/malepelvis-graysanatomy.png" alt="Sketch of male pelvis">
     - title: Anterior superior iliac spine
       x: 122
       y: 195
       content: >
           <h2>Osteology</h2>
-          <img src="images/malepelvis-graysanatomy.png" alt="Sketch of male pelvis">
+          <img src="images/diagrams/malepelvis-graysanatomy.png" alt="Sketch of male pelvis">
           <h2>Clinical correlate: Origin for sartorius</h2>
           <img src="http://upload.wikimedia.org/wikipedia/commons/1/1d/Sartorius_muscle.png">
     - title: Greater trochanter

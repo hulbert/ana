@@ -2,7 +2,12 @@
 define(['jquery', 'raphael', 'magnific'], function ($, Raphael) {
 	'use strict';
 	
-	var cwd = window.location.protocol + '//' + window.location.host + window.location.pathname;
+	// this gives us a root relative URL up to the last slash in the URL 
+	// (so if it's file/path/index.html we get /file/path/)
+	var pathnamePieces = window.location.pathname.split('/');
+	pathnamePieces = pathnamePieces.slice(0, pathnamePieces.length-1);
+	var cwd = pathnamePieces.join('/') + '/';
+
 	$.ajax(cwd + 'data.json', {
 		dataType: 'json'
 	}).done(function(data) {
