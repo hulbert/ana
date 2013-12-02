@@ -94,7 +94,9 @@ define(['jquery', 'raphael', 'magnific'], function ($, Raphael) {
 	}
 
 	function addPoint(paper, coordX, coordY, item) {
-		var RADIUS = 5;
+		var RADIUS = 4,
+			HOVER_RADIUS = 8;
+
 		var c = paper.circle(coordX, coordY, RADIUS).attr({
 			fill: 'red',
 			stroke: 'red',
@@ -118,7 +120,7 @@ define(['jquery', 'raphael', 'magnific'], function ($, Raphael) {
 
 		c.hover(function(e) {
 			c.animate({
-				r: 10,
+				r: HOVER_RADIUS
 			}, 200);
 		}, onclose);
 	}
