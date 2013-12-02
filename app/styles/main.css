@@ -1,3 +1,5 @@
+header,nav,article,footer,section,aside,figure,figcaption{display:block} 
+
 html {
 	height: 100%;
 	-webkit-backface-visibility: hidden;

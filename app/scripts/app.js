@@ -104,7 +104,7 @@ define(['jquery', 'raphael', 'magnific'], function ($, Raphael) {
 			'stroke-opacity': .2,
 			opacity: .8,
 			cursor: 'pointer'
-		})
+		});
 		
 		var onclose = function() {
 			if (!!!item.active) {

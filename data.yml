@@ -126,8 +126,10 @@ model_front:
               Treatment typically involves surgical reconstruction with semitendiosus and gracilis autografts, patellar tendon autograft, or cadaver tendon.
           </p>
           <img src="http://upload.wikimedia.org/wikipedia/commons/e/e3/ACLI_Hamstring_01.jpg">
-          <p class="image-credit"><small>
+          <p class="image-credit">
+              <small>
               Image by Chih-Hwa Chen [<a href="http://creativecommons.org/licenses/by-sa/2.0">CC-BY-SA-2.0</a>], <a href="http://commons.wikimedia.org/wiki/File%3AACLI_Hamstring_01.jpg">via Wikimedia Commons</a>
+              </small>
           </p>
     - title: Ankle
       x: 56
